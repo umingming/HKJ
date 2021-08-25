@@ -9,6 +9,8 @@ public class CharExample {
 		char c4 = '°¡';
 		char c5 = 44032;
 		char c6 = '\uac00';
+		char c7 = 'È«±æµ¿';
+		
 		
 		System.out.println(c1);
 		System.out.println(c2);
