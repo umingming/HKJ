@@ -21,6 +21,11 @@ public class FloatDoubleExample {
 		System.out.println("var5: " + var5);
 		System.out.println("var6: " + var6);
 		
+		long longValue = 5000000000L;
+		float floatValue = longValue;
+		double doubleValue = longValue;
+		System.out.println(floatValue);
+		System.out.println(doubleValue);
 		
 		
 		
