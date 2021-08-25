@@ -27,6 +27,12 @@ public class OperationPromotionExample {
 		int result2 = x / y;
 		System.out.println(result);
 		System.out.println(result2);
+		char c1 = 'a';
+		int i1 = c1 + 1;
+		char c2 = (char) i1;
+		System.out.println(c2);
+		
+		
 	}
 
 }
