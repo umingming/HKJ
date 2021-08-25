@@ -24,6 +24,14 @@ public class PromotionExample {
 	    double doubleValue = floatValue;
 		System.out.println(doubleValue);
 		
+		int intValue2 = 10;
+		byte byteValue2 = (byte) intValue2;
+		System.out.println(byteValue2);
+		
+		int intValue3 = 65;
+		char charValue3 = (char) intValue3;
+		System.out.println(charValue3);
+		
 		
 		
 	}
