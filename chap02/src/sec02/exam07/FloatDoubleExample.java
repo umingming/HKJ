@@ -14,6 +14,8 @@ public class FloatDoubleExample {
 		double var4 = 3e6;
 		double var5 = 3e-3;
 		float var6 = 3e6f;
+		float bar = 1e2f;
+		System.out.println(bar);
 		
 		System.out.println("var4: " + var4);
 		System.out.println("var5: " + var5);
