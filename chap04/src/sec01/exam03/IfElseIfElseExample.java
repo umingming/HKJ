@@ -3,7 +3,7 @@ package sec01.exam03;
 public class IfElseIfElseExample {
 
 	public static void main(String[] args) {
-		int score = 95;
+		int score = 35;
 		
 		if(score>=90) {
 			System.out.println("점수가 90보다 큽니다.");
