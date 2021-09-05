@@ -2,7 +2,7 @@ package sec01.exam01;
 
 public class IfExample {
 	public static void main(String[] args) {
-		int score = 93;
+		int score = 7;
 		
 		if(score>=90) {
 			System.out.println("점수가 90보다 큽니다.");
