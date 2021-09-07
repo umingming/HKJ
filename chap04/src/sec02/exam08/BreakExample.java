@@ -13,6 +13,9 @@ public class BreakExample {
 		}
 
 		System.out.println("프로그램 종료");
+		double num2 = 0.55;
+		System.out.println(num2);
+				
 	}
 
 }
