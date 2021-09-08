@@ -1,25 +1,36 @@
 package sec02.exam11;
 
+import java.util.Scanner;
+
 public class check {
 
 	public static void main(String[] args) {
 		
-		for(int i=1; i<=4; i++){
-			for(int j=0; j<=3; j++){
-				if(j+i<4) {
-					System.out.print(" ");
-				}else{
-					break;
-					}
-				}
-			for(int k=1; k<=4; k++) {
-				System.out.print("*");
-				if(i==k) {
-					System.out.println();
-					break;
-				}
-			}
-		}
+		boolean run = true;
+		int balance = 0;
+		Scanner scanner = new Scanner(System.in);
 
+		while(run) {
+		 System.out.println("--------------------------");
+		 System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
+		 System.out.println("--------------------------");
+		 System.out.print("선택> ");
+		 int num = Integer.parseInt(scanner.nextLine());
+		 if(num==1) {
+			 System.out.print("예금액> ");
+			 balance += Integer.parseInt(scanner.nextLine());
+		 } else if(num==2) {
+			 System.out.print("출금액> ");
+			 balance -= Integer.parseInt(scanner.nextLine());
+		 } else if(num==3) {
+			 System.out.println("잔고> "+balance); 
+		 } else {
+			 break;
+		 }
+		 System.out.println();
+		}
+		System.out.println("프로그램 종료");
+
+		
 	}
 }
