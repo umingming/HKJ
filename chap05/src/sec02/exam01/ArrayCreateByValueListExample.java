@@ -18,7 +18,12 @@ public class ArrayCreateByValueListExample {
 		System.out.println("평균 : " + avg);
 		
 		int[] num;
-		System.out.println(num);
+		num = new int[] { 3, 3 };
+		
+		String[] names = null;
+		names = new String[] { "신용권", "홍길동", "김자바" };
+		
+		
 		
 	}
 
