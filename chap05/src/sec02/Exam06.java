@@ -58,6 +58,7 @@ public class Exam06 {
 				 double avgScore = (double)sum / studentNum; 
 				 System.out.print("최고 점수: " + maxScore );
 				 System.out.print("평균 점수: " + avgScore );
+				 System.out.print("합계: " + sum );
 
 				 }
 			 }else if(selectNo == 5) {
