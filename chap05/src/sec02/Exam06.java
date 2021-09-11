@@ -20,31 +20,30 @@ public class Exam06 {
 			int selectNo = Integer.parseInt(scanner.nextLine());
 
 			if(selectNo == 1) {
-				System.out.println("학생 수> ");
+				System.out.print("학생 수> ");
 				studentNum = Integer.parseInt(scanner.nextLine());
-				System.out.println();
 				scores = new int[studentNum];
 				
 			} else if (selectNo == 2) {
 				for (int i = 0; i < scores.length; i++) {
-					System.out.printf("scores[%d]> \n", i);
+					System.out.printf("scores[%d]> ", i);
 					scores[i] = Integer.parseInt(scanner.nextLine());
 				}
 			} else if (selectNo == 3) {
 				for (int i = 0; i < scores.length; i++) {
-					System.out.printf("scores[%d]: %d", i, i);
+					System.out.printf("scores[%d]: %d\n", i, scores[i]);
 				}
 			} else if (selectNo == 4) {
 				int max = 0;
 				int sum = 0;
-				double avg = 0;
+				double avg = 0.0;
 				for( int i = 0; i <scores.length; i++) {
 					max = (max < scores[i]) ? scores[i] : max;
 					sum += scores[i];
 				}
 				avg = (double)sum/studentNum;
 				System.out.printf("최고 점수: %d\n", max);
-				System.out.printf("평균 점수: %d\n", avg);
+				System.out.printf("평균 점수: %f\n", avg);
 				
 				
 			}else if(selectNo == 5) {
