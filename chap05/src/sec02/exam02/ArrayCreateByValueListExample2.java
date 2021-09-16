@@ -36,7 +36,6 @@ public class ArrayCreateByValueListExample2 {
 	}
 
 	private static int scores(int[] is) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 		
