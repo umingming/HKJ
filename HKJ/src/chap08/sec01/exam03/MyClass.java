@@ -1,10 +1,10 @@
 package chap08.sec01.exam03;
 
-public class myClass {
+public class MyClass {
 	
 	RemoteControl rc = new Television();
 
-	public myClass(RemoteControl rc) {
+	public MyClass(RemoteControl rc) {
 		this.rc = rc;
 	}
 	
