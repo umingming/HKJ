@@ -15,7 +15,7 @@ public class ImplementationC implements InterfaceC{
 	}
 
 	@Override
-	public void mehtodC() {
+	public void methodC() {
 		System.out.println("C실행");
 		
 	}
