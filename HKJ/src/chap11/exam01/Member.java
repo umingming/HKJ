@@ -16,5 +16,9 @@ public class Member {
 		}
 		return false;
 	}
+	
+	public int hashCode() {
+		return id.hashCode();
+	}
 
 }
