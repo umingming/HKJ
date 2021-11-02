@@ -16,6 +16,7 @@ public class MemberExample {
 			System.out.println("동등");
 		}else {
 			System.out.println("!동등");
+			
 		}
 			
 	}
