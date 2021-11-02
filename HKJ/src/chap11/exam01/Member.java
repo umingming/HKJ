@@ -1,4 +1,4 @@
-package chap11;
+package chap11.exam01;
 
 public class Member {
 	public String id;
