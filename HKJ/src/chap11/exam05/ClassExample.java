@@ -10,6 +10,7 @@ public class ClassExample {
 //		Car car = new Car();
 //		Class c3 = car.getClass();
 		
+		
 		System.out.println(c.getName());
 		System.out.println(c.getSimpleName());
 		System.out.println(c.getPackage().getName());
